@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+
+
+*{margin:0;
+    padding:0;
+    box-sizing: content-box;
+}
+
+body{
+    background-color:hsl(233, 47%, 7%);
+}
+
+section{
+width: 300px;
+height: 660px;
+margin:auto;
+margin-top: 50px;
+background-color: hsl(244, 38%, 16%);
+display:flex;
+flex-direction: column;
+align-items: center;
+border-radius: 10px;
+}
+
+.tinted{
+    width: 300px;
+    border-radius: 10px 10px 0 0;
+    height: 220px;
+    background-color: hsl(277, 64%, 61%)
+}
+
+.smallpic{
+width: 300px;
+border-radius: 10px 10px 0 0;
+height: 220px;
+opacity: 0.5;
+}
+.bigpic{
+display:none;
+
+}
+
+h1{
+color:white;
+font-size: 2rem;
+font-family: 'Inter', sans-serif;
+font-weight: 700;
+margin: 30px 25px 20px 25px;
+text-align: center;
+}
+
+.accent{
+    color:hsl(277, 64%, 61%)
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+   
+}
+.main{
+color: hsla(0, 0%, 100%, 0.75);
+margin: 0px 40px 30px 40px;
+text-align: center;
+}
+
+.stathead{
+    color:hsla(0, 0%, 100%, 0.6);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2{
+    color:hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width: 1440px){
+section{
+width: 1100px;
+height: 430px;
+margin:auto;
+margin-top: 200px;
+display:flex;
+flex-direction: row-reverse;
+align-items: center;
+border-radius: 10px;}
+
+.smallpic{
+display:none;
+}
+.tinted{
+width: 550px;
+height:430px;
+border-radius: 0 10px 10px 0;
+}
+.bigpic{
+    width: 550px;
+    height:430px;
+    border-radius: 0 10px 10px 0;
+    opacity: 0.5;
+    display:inline;
+}
+
+.text{
+    height:450px;
+}
+
+
+h1{
+font-size: 3rem;
+margin:80px 60px 30px 60px;
+text-align: left;
+}
+.main{
+    font-size: 1.2rem;
+    margin:0 120px 60px 60px;
+    text-align: left;
+
+}
+.stat{
+display: flex;
+flex-direction: row;
+}
+
+h2{
+    font-size: 1.9rem;
+    text-align: left;
+
+}
+h2, .stathead{
+margin-left: 60px;
+}
+
+
+
+
+
+}
+
